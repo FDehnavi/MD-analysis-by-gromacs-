@@ -1,0 +1,4 @@
+# rmsd
+>>>gmx rms -s md(name of file).tpr -f md(name of file).xtc -o rmsd(favorite name).xvg -tu ns 
+#rmsf
+>>> gmx rmsf -s md(name of file).tpr -f md(name of file).xtc -o rmsf(favorite name).xvg -ox average.pdb -oq bfactor.pdb -res -n index.ndx
